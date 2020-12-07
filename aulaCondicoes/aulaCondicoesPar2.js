@@ -12,11 +12,12 @@ if (idade < 16) {
 
 // -------------------------------------------------------
 
-var hora = 25
+var agora = new Date()
+var hora = agora.getHours() // Pegando as horas atuais, e tem outros gets
 
 if (hora < 12) {
     console.log('Bom dia!')
-} else if (hora >= 12 && hora == 18) {
+} else if (hora <= 18) {
     console.log('Boa tarde')
 } else if (hora > 18 && hora == 24) {
     console.log('Boa noite!')
