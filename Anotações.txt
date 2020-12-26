@@ -1,0 +1,27 @@
+
+**************** ANOTAÇÕES JS ***********************
+--------------------------------------------------------------------------------|
+aula 06										|
+comando typeof informa de que tipo é conteudo dentro da variavel,		|
+										|
+e ele informa que tipo é o que voce escreveu.					|
+										|
+-> formas de comentario: na parte de JS é // ou /*
+na parte de html <"-- -->
+na parte de css é /*
+==========================================================================
+toda informação vindo de prompt vem como string, e se for necessario fazer	|
+algum calculo aí necessario fazer o "casting ou conversão de tipo":		|
+ex : Number.parseInt(n)
+Number.parseFloat(n)
+ou só Number()
+tambem é possivel alterar pra string com string(variavel) ou variavel.toString()
+
+é usado interpolação : xxxx ${variavel} xxxx
+
+pra escrever uma op document.write
+----------------------------------------------------------------------------------
+
+aula com DOM
+Fazer um projeto utilizando live server ajuda com a atualização automatica do site.
+NODE JS EXEC faz ativar a tecla f8
